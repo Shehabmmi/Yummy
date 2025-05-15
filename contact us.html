@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-black">
+
+
+    <div class="sideBar d-flex z-3">
+        <div class="links bg-black text-white d-flex flex-column justify-content-between p-4">
+            <div class="menu-items d-flex flex-column gap-3">
+                <a href="./search.html">Search</a>
+                <a href="./category.html">Categories</a>
+                <a href="./area.html">Area</a>
+                <a href="./ingredient.html">Ingredients</a>
+                <a href="./contact us.html">Contact Us</a>
+            </div>
+            <div class="social text-white d-flex flex-column gap-2">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <p class="mb-0">Copyright Â© 2025 All Rights Reserved.</p>
+            </div>
+        </div>
+
+        <div class="icons-panel bg-white d-flex flex-column justify-content-between align-items-center p-3">
+            <img src="./images/logo.png" alt="logo" class="logo">
+            <i class="fa-solid open-close-icon fa-2x fa-align-justify"></i>
+            <div class="bottom">
+                <i class="fa-solid fa-globe"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+
+        </div>
+    </div>
+
+     <div class="loading">
+        <span class="loader"></span>
+    </div>
+
+    <section class="mt-5">
+  <div class="container">
+    <form>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="nameInput" placeholder="Enter Your Name">
+            <label for="nameInput">Enter Your Name</label>
+            <p class="text-danger fw-bold d-none" id="nameMessage">User Name must start with small letter , number , _ or - </p>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="tel" class="form-control" id="phoneInput" placeholder="Enter Your Phone">
+            <label for="phoneInput">Enter Your Phone</label>
+            <p class="text-danger fw-bold d-none" id="phoneMessage">Phone number is required</p>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="passwordInput" placeholder="Enter Your password">
+            <label for="passwordInput">Enter Your password</label>
+            <p class="text-danger fw-bold d-none" id="password_message">Password must containes capital letter , numbers and special characters</p>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+            <label for="emailInput">Email address</label>
+            <p class="text-danger fw-bold d-none" id="email_message">Email must be valid</p>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="number" class="form-control" id="ageInput" placeholder="Enter your age">
+            <label for="ageInput">Enter your age</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="rePasswordInput" placeholder="Enter Your password again">
+            <label for="rePasswordInput">Re-write Your password again</label>
+            <p class="text-danger fw-bold d-none" id="re_password_message">Password must containes capital letter , numbers and special characters</p>
+          </div>
+        </div>
+
+        <div class="col-12 d-flex justify-content-center">
+          <button type="submit" class="btn btn-success w-25">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/form.js"></script>
+</body>
+
+</html>
+
+<!-- <div class="form-floating mb-3">
+    <input type="text" class="form-control" id="nameInput" placeholder="Enter Your Name">
+    <label for="nameInput">Enter Your Name</label>
+</div>
+<div class="form-floating mb-3">
+    <input type="tel" class="form-control" id="phoneInput" placeholder="Enter Your Phone">
+    <label for="phoneInput">Enter Your Phone</label>
+</div>
+<div class="form-floating mb-3">
+    <input type="password" class="form-control" id="passwordInput" placeholder="Enter Your password">
+    <label for="passwordInput">Enter Your password</label>
+</div> -->
+
+<!-- <div class="form-floating mb-3">
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingInput">Email address</label>
+</div>
+<div class="form-floating mb-3">
+    <input type="number" class="form-control" id="ageInput" placeholder="Enter your age">
+    <label for="ageInput">Enter your age</label>
+</div>
+<div class="form-floating mb-3">
+    <input type="password" class="form-control" id="rePasswordInput" placeholder="Enter Your password again">
+    <label for="rePasswordInput">Enter Your password again</label>
+</div> -->
